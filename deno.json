@@ -1,0 +1,16 @@
+{
+  "deploy": {
+    "project": "e16f2e17-e18d-41e7-a932-efd7c6971ea3",
+    "exclude": [
+      "**/node_modules"
+    ],
+    "include": [],
+    "entrypoint": "jsr:@std/http/file-server",
+    "icons": [{
+      "src": "https://favi.deno.dev/🎙.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }]
+  }
+}
