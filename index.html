@@ -17,18 +17,9 @@
         color: buttontext;
         background-color: buttonface;
         text-decoration: none;
-      } 
-      table {
-        border: 3px solid black;
-        border-radius: 10px;
         box-shadow:
-          3px 3px gray
-      }
-      td {
-        border: 1px solid black;
-        border-radius: 3px;
-      }
-
+        3px 3px gray
+      } 
       span.column {
         display: flex;
         flex-direction: column;
@@ -36,45 +27,39 @@
         border: 3px solid black;
         border-radius: 10px;
         box-shadow:
-          3px 3px red,
+          3px 3px gray,
           -1em 0 0.4em olive;
         padding: 10px;
+      }
+
+      img {
+        margin: 20px;
+        box-shadow:
+        0 6px 6px hsl(0deg 0% 0% / 0.3);
       }
     </style>
   </head>
   <body>
-    <table>
-      <tr>
-        <td>🎙 America's Talk Show</td>
-      </tr>
-      <tr>
-        <td>M-F 10-11am Eastern</td>
-      </tr>
-      <tr>
-        <td>
-          <a href="https://us06web.zoom.us/meeting/register/RGIPAMlFQ3CcoMdOPsIs6Q#/registration" class="button">
-            ☼ Click Here to Register For the Morning Show
-          </a>  
-        </td>
-      </tr>
-      <tr><td>
-      </td></tr>
-      <tr><td>M-F 7-8pm Eastern</td></tr>
-    </table>
-  
     <span class="column">
+ 
       <h1>🎙 America's Talk Show 🎙</h1>
-      <h1>M-F 10-11am Eastern</h1>
-      <h3>
-        <a href="https://us06web.zoom.us/meeting/register/RGIPAMlFQ3CcoMdOPsIs6Q#/registration" class="button">
-          ☼ Click Here to Register For the Morning Show
+      <a href="https://us06web.zoom.us/meeting/register/RGIPAMlFQ3CcoMdOPsIs6Q#/registration" class="button">
+          <h1> Click Here to Register </h1>
+          <h1>☀️ For the Morning Show ☀️</h1>
+          <h1>M-F 10-11am Eastern</h1>
+ 
         </a>
-      </h3>
+      <span class="box">
       <a href="https://linktr.ee/americastalkshow" target="_blank">
         <img src="logo.png" alt="logo" width="100" />
       </a>
+    </span>
+      <a href="https://us06web.zoom.us/meeting/register/8_riQHXxQomxCk0ccGnKcg?_x_zm_rtaid=aVgTez3WQau9h-JquqVitg.1746407095094.948f804b567477987df72d73ba53cea7&_x_zm_rhtaid=157#/registration" class="button">
+        <h1> Click Here to Register </h1>
+        <h1>🌙 For the Late Show 🌙</h1>
+        <h1>M-F 7-8pm Eastern</h1>
 
-      <img src="image.png" alt="image" width="300" />
+      </a>
       <p>v 0.0.2</p>
     </span>
   </body>
