@@ -5,28 +5,7 @@ body {
     /*height: 100vh;*/
     margin-bottom: 100px;
   }
-/*  #header {
-    height: 50px;
-    background-color: lightgray;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-sizing: border-box;
-    padding: 0px 10px;
-  }
-  
-  #flexed-nav {
-    width: 150px;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  #side-menu {
-  height: calc(100vh - 65px);
-  width: 50px;
-  background-color: gray;
-  position: fixed;
-  }*/
+
   
   #parent-container {
     height: calc(100vh - 65px);
@@ -50,11 +29,12 @@ body {
     background-color: #5adbb5;
     border-radius: 10px;
     font-size: 3vh;
+    color: white;
   }
 
 button:hover {
   background-color: #5dbea3;
-  color: white;
+  color: black;
 }
   
 button.night {
@@ -84,3 +64,26 @@ button.night:hover {
   .footer {
     font-size: 1vh;
   }
+
+  /*  #header {
+    height: 50px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0px 10px;
+  }
+  
+  #flexed-nav {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #side-menu {
+  height: calc(100vh - 65px);
+  width: 50px;
+  background-color: gray;
+  position: fixed;
+  }*/
