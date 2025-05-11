@@ -5,10 +5,11 @@
     <link rel="icon" type="image/png" href="https://favi.deno.dev/🎙.png" />
     <link rel="apple-touch-icon" href="https://favi.deno.dev/🎙.png" />
     <link rel="manifest" href="/manifest.json" />
+    <link rel='stylesheet' type='text/css' href='./src/styles.css'>
+
     <style>
       body {
         font-family: Helvetica, sans-serif;
-        text-align: center;
       }
       a.button {
         padding: 1px 6px;
@@ -20,47 +21,47 @@
         box-shadow:
         3px 3px gray
       } 
-      span.column {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        border: 3px solid black;
-        border-radius: 10px;
-        box-shadow:
-          3px 3px gray,
-          -1em 0 0.4em olive;
-        padding: 10px;
+
+      .item {
+        width: 33%;
+        border-right: 1px solid black;
       }
 
       img {
-        margin: 20px;
+/*        margin: 20px;*/
         box-shadow:
         0 6px 6px hsl(0deg 0% 0% / 0.3);
       }
     </style>
   </head>
   <body>
-    <span class="column">
- 
+    <div id="parent-container">
       <h1>🎙 America's Talk Show 🎙</h1>
       <a href="https://us06web.zoom.us/meeting/register/RGIPAMlFQ3CcoMdOPsIs6Q#/registration" class="button">
-          <h1> Click Here to Register </h1>
-          <h1>☀️ For the Morning Show ☀️</h1>
-          <h1>M-F 10-11am Eastern</h1>
- 
-        </a>
-      <span class="box">
+         Click Here to Register 
+        ☀️ For the Morning Show ☀️
+        M-F 10-11am Eastern
+      </a>
       <a href="https://linktr.ee/americastalkshow" target="_blank">
         <img src="logo.png" alt="logo" width="100" />
       </a>
-    </span>
       <a href="https://us06web.zoom.us/meeting/register/8_riQHXxQomxCk0ccGnKcg?_x_zm_rtaid=aVgTez3WQau9h-JquqVitg.1746407095094.948f804b567477987df72d73ba53cea7&_x_zm_rhtaid=157#/registration" class="button">
-        <h1> Click Here to Register </h1>
-        <h1>🌙 For the Late Show 🌙</h1>
-        <h1>M-F 7-8pm Eastern</h1>
+        Click Here to Register 
+        🌙 For the Late Show 🌙
+        M-F 7-8pm Eastern
 
       </a>
       <p>v 0.0.3</p>
+      <!--span class="item">
+      </span>
+      <span class="item">
+      </span>
+      <span class="item">
+
     </span>
+    <span class="item">
+
+    </span-->
+  </div>
   </body>
 </html>
