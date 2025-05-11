@@ -34,7 +34,7 @@ body {
     border: 3px solid black;
     border-radius: 30px;
     position: absolute;
-    left: 57px;
+    left: 5px;
     display: flex;
     flex-direction: column;
 /*    justify-content: flex-end;*/
